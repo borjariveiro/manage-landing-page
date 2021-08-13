@@ -30,7 +30,7 @@ Users should be able to:
 - Desktop view
 ![Desktop](design/desktop-screenshot.png)
 
--Mobile view
+- Mobile view
 ![Mobile](design/mobile-screenshot.png)
 
 ### Links
