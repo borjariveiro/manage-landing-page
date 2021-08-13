@@ -27,15 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-- Desktop view
 ![Desktop](design/desktop-screenshot.png)
 
-- Mobile view
+----
+
 ![Mobile](design/mobile-screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Manage-Landing-Page](https://borjariveiro.github.io/manage-landing-page/)
 
 ## My process
 
