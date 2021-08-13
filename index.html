@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Style links -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Scripts -->
+    <script defer src="js/index.js"></script>
+
+    <title>Frontend Mentor | Manage landing page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header__logo">
+        <img src="assets/images/logo.svg" alt="Company logo" />
+      </div>
+
+      <!-- Nav -->
+      <div class="background-modal" id="background-modal"></div>
+      <nav class="main-nav" id="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a
+              class="main-nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Pricing</a
+            >
+          </li>
+          <li class="main-nav__item">
+            <a
+              class="main-nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Product</a
+            >
+          </li>
+          <li class="main-nav__item">
+            <a
+              class="main-nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >About Us</a
+            >
+          </li>
+          <li class="main-nav__item">
+            <a
+              class="main-nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Careers</a
+            >
+          </li>
+          <li class="main-nav__item">
+            <a
+              class="main-nav__link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Community</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="header__hamburger">
+        <img
+          src="assets/images/icon-hamburger.svg"
+          alt="Hamburger icon"
+          id="hamburger-close"
+        />
+      </div>
+
+      <a
+        class="button__link button hide-on-mobile header__button"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Get Started</a
+      >
+    </header>
+
+    <!-- Main -->
+    <main class="landing">
+      <!-- Hero -->
+
+      <section class="hero">
+        <div class="hero__image">
+          <img
+            src="assets/images/illustration-intro.svg"
+            alt="Background image with random graphics"
+          />
+        </div>
+        <div class="hero__content">
+          <h1>Bring everyone together to build better products.</h1>
+          <p>
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <div class="hero__button">
+            <a
+              class="button button__link"
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Showcase -->
+
+      <section class="showcase">
+        <div class="showcase__title">
+          <h2>What’s different about Manage?</h2>
+          <p>
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <div class="showcase__content">
+          <ol class="showcase__list">
+            <li class="showcase__item">
+              <div class="showcase__item-tittle">
+                <h3><span>01</span>Track company-wide progress</h3>
+              </div>
+              <div class="showcase__item-content">
+                <p>
+                  See how your day-to-day tasks fit into the wider vision. Go
+                  from tracking progress at the milestone level all the way done
+                  to the smallest of details. Never lose sight of the bigger
+                  picture again.
+                </p>
+              </div>
+            </li>
+            <li class="showcase__item">
+              <div class="showcase__item-tittle">
+                <h3><span>02</span>Advanced built-in reports</h3>
+              </div>
+              <div class="showcase__item-content">
+                <p>
+                  Set internal delivery estimates and track progress toward
+                  company goals. Our customisable dashboard helps you build out
+                  the reports you need to keep key stakeholders informed.
+                </p>
+              </div>
+            </li>
+            <li class="showcase__item">
+              <div class="showcase__item-tittle">
+                <h3><span>03</span>Everything you need in one place</h3>
+              </div>
+              <div class="showcase__item-content">
+                <p>
+                  Stop jumping from one service to another to communicate, store
+                  files, track tasks and share documents. Manage offers an
+                  all-in-one team productivity solution.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+
+      <section class="testimonials">
+        <h2 class="testimonials__tittle">What they’ve said</h2>
+        <div class="testimonials__slider">
+          <article class="testimonial__item">
+            <img
+              class="testimonial__image"
+              src="assets/images/avatar-anisha.png"
+              alt=""
+            />
+            <h3 class="testimonial__name">Anisha Li</h3>
+            <p class="testimonial__opinion">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </article>
+
+          <article class="testimonial__item">
+            <img
+              class="testimonial__image"
+              src="assets/images/avatar-ali.png"
+              alt=""
+            />
+            <h3 class="testimonial__name">Ali Bravo</h3>
+            <p class="testimonial__opinion">
+              “We have been able to cancel so many other subscriptions since
+              using Manage. There is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </article>
+
+          <article class="testimonial__item">
+            <img
+              class="testimonial__image"
+              src="assets/images/avatar-richard.png"
+              alt=""
+            />
+            <h3 class="testimonial__name">Richard Watts</h3>
+            <p class="testimonial__opinion">
+              “Manage allows us to provide structure and process. It keeps us
+              organized and focused. I can’t stop recommending them to everyone
+              I talk to!”
+            </p>
+          </article>
+
+          <article class="testimonial__item">
+            <img
+              class="testimonial__image"
+              src="assets/images/avatar-shanai.png"
+              alt=""
+            />
+            <h3 class="testimonial__name">Shanai Gough</h3>
+            <p class="testimonial__opinion">
+              “Their software allows us to track, manage and collaborate on our
+              projects from anywhere. It keeps the whole team in-sync without
+              being intrusive.”
+            </p>
+          </article>
+        </div>
+
+        <a
+          class="button button__link"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Get Started</a
+        >
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Footer top -->
+      <div class="footer__top">
+        <h2 class="footer__top-tittle">Simplify how your team works today.</h2>
+        <a
+          class="button footer__button button__link"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Get Started</a
+        >
+      </div>
+      <!-- Footer bottom -->
+      <div class="footer__bottom">
+        <div class="footer__logo">
+          <img src="assets/images/logo-white.svg" alt="Company logo" />
+        </div>
+        <div class="footer__social-media">
+          <a href="#" target="_blank">
+            <img src="assets/images/icon-facebook.svg" alt="Facebook link" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="assets/images/icon-youtube.svg" alt="Youtube link" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="assets/images/icon-twitter.svg" alt="Twitter link" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="assets/images/icon-pinterest.svg" alt="Pinterest link" />
+          </a>
+          <a href="#" target="_blank">
+            <img src="assets/images/icon-instagram.svg" alt="Instagram link" />
+          </a>
+        </div>
+        <div class="footer__links">
+          <ul class="footer__links-1">
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">Home</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">Pricing</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">Products</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">About Us</a>
+            </li>
+          </ul>
+          <ul class="footer__links-2">
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer">Careers</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Community</a
+              >
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__form">
+          <form action="#" id="form">
+            <input
+              type="text"
+              placeholder="Updates in your inbox…"
+              id="inputForm"
+              required
+            />
+            <button type="submit">Go</button>
+          </form>
+          <div class="footer__error" id="messageError"></div>
+        </div>
+        <div class="footer__copy">Copyright 2020. All Rights Reserved</div>
+      </div>
+    </footer>
+  </body>
+</html>
