@@ -5,15 +5,19 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 ## Table of contents
 
 - [Overview](#overview)
+  - [Link](#links)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
+
+### Link
+
+- Solution URL: [Manage-Landing-Page](https://borjariveiro.github.io/manage-landing-page/)
 
 ### The challenge
 
@@ -32,10 +36,6 @@ Users should be able to:
 ----
 
 ![Mobile](design/mobile-screenshot.png)
-
-### Links
-
-- Solution URL: [Manage-Landing-Page](https://borjariveiro.github.io/manage-landing-page/)
 
 ## My process
 
