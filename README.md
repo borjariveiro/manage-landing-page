@@ -23,8 +23,8 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 
 ### Author
 
-- Linkedin - [borjariveiro](https://www.linkedin.com/in/borjariveiro/)
-- GitHub - [Borja-Riveiro](https://github.com/Borja-Riveiro)
+- [Linkedin](https://www.linkedin.com/in/borjariveiro/)
+- [GitHub](https://github.com/borjariveiro)
 
 ### The challenge
 
