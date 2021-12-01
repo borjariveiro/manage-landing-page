@@ -4,20 +4,27 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Link](#links)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Frontend Mentor - Manage landing page solution](#frontend-mentor---manage-landing-page-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Link](#link)
+    - [Author](#author)
+    - [The challenge](#the-challenge)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [Useful resources](#useful-resources)
+
 
 ## Overview
 
 ### Link
 
 - Solution URL: [Manage-Landing-Page](https://borjariveiro.github.io/manage-landing-page/)
+
+### Author
+
+- Linkedin - [borjariveiro](https://www.linkedin.com/in/borjariveiro/)
+- GitHub - [Borja-Riveiro](https://github.com/Borja-Riveiro)
 
 ### The challenge
 
@@ -28,14 +35,6 @@ Users should be able to:
 - Receive an error message when the newsletter sign up `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
-
-### Screenshot
-
-![Desktop](design/desktop-screenshot.png)
-
-----
-
-![Mobile](design/mobile-screenshot.png)
 
 ## My process
 
@@ -52,8 +51,3 @@ Users should be able to:
 - [CSS-TRICKS Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [CSS-TRICKS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [JavaScript](https://es.javascript.info/)
-
-## Author
-
-- Linkedin - [@borjariveiro](linkedin.com/in/borjariveiro)
-- GitHub - [@Borja-Riveiro](https://github.com/Borja-Riveiro)
