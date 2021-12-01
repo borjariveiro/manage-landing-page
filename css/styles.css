@@ -70,6 +70,14 @@ p {
 
 /* General styles */
 
+/* App */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Header */
 header {
   position: sticky;
@@ -78,6 +86,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
 }
 
 .header__logo {
@@ -153,6 +162,12 @@ header {
 
 /* Nav */
 
+/* Landing */
+
+.landing {
+  max-width: 1440px;
+}
+
 /* Hero */
 .hero__image {
   width: 100%;
@@ -160,6 +175,7 @@ header {
 
 .hero__image img {
   width: 100%;
+  float: right;
 }
 
 .hero__content {
@@ -261,7 +277,10 @@ header {
 .testimonials__slider {
   margin-bottom: 6rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -270,6 +289,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 300px;
+  height: 270px;
+  padding-top: 1rem;
 }
 
 .testimonial__image {
@@ -293,6 +315,9 @@ header {
 /* Testimonials */
 
 /* Footer */
+.footer {
+  width: 100%;
+}
 
 /* Footer Top*/
 .footer__top {
@@ -437,7 +462,7 @@ header {
 
 /* Desktop view */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   body {
     background-size: auto 500px, 700px auto;
     background-position-x: 25rem, 5rem;
